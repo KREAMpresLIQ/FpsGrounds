@@ -1,0 +1,13 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "4.27",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "S05_FpsGrounds",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}
