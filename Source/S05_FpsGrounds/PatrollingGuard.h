@@ -7,7 +7,7 @@
 #include "PatrollingGuard.generated.h"
 
 /**
- * 
+ *  A "route card" to help AI choose their next waypoint
  */
 UCLASS()
 class S05_FPSGROUNDS_API APatrollingGuard : public ATP_ThirdPersonCharacter
