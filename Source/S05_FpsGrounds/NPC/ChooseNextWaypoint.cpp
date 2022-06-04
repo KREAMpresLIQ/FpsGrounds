@@ -1,7 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
-#include "S05_FpsGrounds.h"
 #include "ChooseNextWaypoint.h"
+#include "../S05_FpsGrounds.h"
 #include "AIController.h"
 #include "PatrolRoute.h"
 #include "BehaviorTree/BlackboardComponent.h"

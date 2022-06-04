@@ -10,10 +10,19 @@
 AS05_FpsGroundsHUD::AS05_FpsGroundsHUD()
 {
 	// Set the crosshair texture
-	static ConstructorHelpers::FObjectFinder<UTexture2D> CrosshairTexObj(TEXT("/Game/FirstPerson/Textures/FirstPersonCrosshair"));
+	static ConstructorHelpers::FObjectFinder<UTexture2D> CrosshairTexObj(TEXT("/Game/Player/Textures/FirstPersonCrosshair"));
 	CrosshairTex = CrosshairTexObj.Object;
 }
 
+
+/*
+static ConstructorHelpers::FObjectFinder<UTexture2D> CrosshairTexObj(TEXT("/Game/FirstPerson/Textures/FirstPersonCrosshair"));
+	CrosshairTex = CrosshairTexObj.Object;
+*/
+
+/*
+Texture2D'/Game/Player/Textures/FirstPersonCrosshair.FirstPersonCrosshair'
+*/
 
 void AS05_FpsGroundsHUD::DrawHUD()
 {
