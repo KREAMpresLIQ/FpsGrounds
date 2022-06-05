@@ -28,4 +28,5 @@ Developed with Unreal Engine 4
  * Custom ThirdPerson BP -> Use AnimStarterPack BP Rename The BP <Unreal CrasHH>
  * Animation Behavior Tree, Animation Pack, use Animation Play
  * REFACTORING - Mappak atnevezese, csoportositasa <NO C++>
- * REFACTORING C++ 
+ * REFACTORING C++
+ * BlueprintLog: Warning: Blueprint failed to compile:  NPC_AI_BP <COMPILE ERROR>
