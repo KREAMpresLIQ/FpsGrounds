@@ -30,3 +30,10 @@ Developed with Unreal Engine 4
  * REFACTORING - Mappak atnevezese, csoportositasa <NO C++>
  * REFACTORING C++
  * BlueprintLog: Warning: Blueprint failed to compile:  NPC_AI_BP <COMPILE ERROR>
+ * UPDATE README.MD
+ * Gun Holding <beta>
+ * Animation Folder Modified
+ * State Machines Animation, BP
+ * Blend Spaces --> Ironsight + JOG
+ * Aim Offsets
+ * Aim Offset 1D >>> BlendSpaces
