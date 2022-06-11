@@ -37,3 +37,10 @@ Developed with Unreal Engine 4
  * Blend Spaces --> Ironsight + JOG
  * Aim Offsets
  * Aim Offset 1D >>> BlendSpaces
+ * FocusAtActor
+ * Auto Update | FocusAtActor
+ * FocusAtActor --> Auto Update / Aim rotation
+ * Patrol + Focus // Patrol then Chase | Chase then Patrol <if out of range Patrol back>
+ * Suspicious / WAIT / Patrol + Chase < Move to Last Location Wait 5s then patrol >
+ * Patrol --> Chase | Enemy TAGS on NPC's | Guard 1-2 < 2 Bug fix >
+ 
