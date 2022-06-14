@@ -39,6 +39,9 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
+	/** Fires a projectile. */
+	void OnFire();
+
 	/** Projectile class to spawn */
 	UPROPERTY(EditDefaultsOnly, Category = Projectile)
 	TSubclassOf<class ABallProjectile> ProjectileClass;
@@ -54,6 +57,5 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
 	UAnimInstance* AnimInstance;
 	
-	/** Fires a projectile. */
-	void OnFire();
+	
 };
