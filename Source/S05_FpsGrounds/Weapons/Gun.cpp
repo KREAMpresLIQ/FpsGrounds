@@ -2,8 +2,8 @@
 
 
 #include "Gun.h"
-#include "Animation/AnimInstance.h"
 #include "BallProjectile.h"
+#include "Animation/AnimInstance.h"
 //#include "Camera/CameraComponent.h"
 //#include "Components/CapsuleComponent.h"
 //#include "Components/InputComponent.h"
@@ -66,21 +66,20 @@ void AGun::OnFire()
 			}
 		}
 
-	// try and play a firing animation if specified
-	if (FireAnimation != nullptr)
-	{
-		// Get the animation object for the arms mesh
-		UAnimInstance* AnimInstance1P = Mesh1P->GetAnimInstance();
-		if (AnimInstance1P != nullptr)
-		{
-			AnimInstance1P->Montage_Play(FireAnimation, 1.f);
-		}
-	}
-
 	// try and play the sound if specified
 	if (FireSound != nullptr)
 	{
 		UGameplayStatics::PlaySoundAtLocation(this, FireSound, GetActorLocation());
+	}
+
+	// try and play a firing animation if specified
+	if (FireAnimation != nullptr)
+	{
+		// Get the animation object for the arms mesh
+		if (AnimInstance != nullptr)
+		{
+			AnimInstance->Montage_Play(FireAnimation, 1.f);
+		}
 	}
 }
 

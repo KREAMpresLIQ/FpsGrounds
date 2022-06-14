@@ -23,21 +23,13 @@ class S05_FPSGROUNDS_API AGun : public AActor
 	/** Pawn mesh: 1st person view (arms; seen only by self) */
 	UPROPERTY(VisibleDefaultsOnly, Category = Mesh)
 	class USkeletalMeshComponent* Mesh1P;
-
-
 	
 public:	
 	// Sets default values for this actor's properties
 	AGun();
 
-
-protected:
-	// Called when the game starts or when spawned
-	virtual void BeginPlay() override;
-
-public:	
 	// Called every frame
-	virtual void Tick(float DeltaTime) override;
+	virtual void Tick(float DeltaSeconds ) override;
 
 	/** Fires a projectile. */
 	void OnFire();
@@ -53,9 +45,13 @@ public:
 	/** AnimMontage to play each time we fire */
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
 	UAnimMontage* FireAnimation;
-	
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
-	UAnimInstance* AnimInstance;
+		class UAnimInstance* AnimInstance;
+	
+protected:
+	// Called when the game starts or when spawned
+	virtual void BeginPlay() override;
 	
 	
 };

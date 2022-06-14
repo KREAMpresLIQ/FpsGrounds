@@ -1,10 +1,8 @@
 // Copyright Epic Games, Inc. All Rights Reserved.
 
+#include "../S05_FpsGrounds.h"
 #include "FirstPersonCharacter.h"
 #include "../Weapons/Gun.h"
-#include "../S05_FpsGrounds.h"
-//#include "../Weapons/BallProjectile.h"
-//#include "Animation/AnimInstance.h"
 #include "Camera/CameraComponent.h"
 #include "Components/CapsuleComponent.h"
 #include "Components/InputComponent.h"
