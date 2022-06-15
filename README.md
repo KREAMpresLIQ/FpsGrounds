@@ -43,4 +43,11 @@ Developed with Unreal Engine 4
  * Patrol + Focus // Patrol then Chase | Chase then Patrol <if out of range Patrol back>
  * Suspicious / WAIT / Patrol + Chase < Move to Last Location Wait 5s then patrol >
  * Patrol --> Chase | Enemy TAGS on NPC's | Guard 1-2 < 2 Bug fix >
- 
+ * Gun C++ Clas
+ * C++ Gun --> Fire <work> | Animation <NOT work> | Sound on Fire <work> | <hides class member declaration> -- Error 
+ * LFS to GIT - All assets to Static Sub Folder
+ * Update .gitattributes to track only static sub folder.
+ * LFS to NON LFS
+ * Folder Change, Crash Fix - Crosshair | </Game/Static/Player/Textures/FirstPersonCrosshair>
+ * Update, Error Fix
+ * C++ Gun --> Fire <work> | Animation <work> | Sound on Fire <work> hides class member declaration> -- Error - FIXED!!
