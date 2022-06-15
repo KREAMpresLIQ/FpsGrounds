@@ -51,3 +51,6 @@ Developed with Unreal Engine 4
  * Folder Change, Crash Fix - Crosshair | </Game/Static/Player/Textures/FirstPersonCrosshair>
  * Update, Error Fix
  * C++ Gun --> Fire <work> | Animation <work> | Sound on Fire <work> hides class member declaration> -- Error - FIXED!!
+ * Weapon_Bundle, SKINS, Ammo || Mesh Change
+ * Two Bone 1K
+  
