@@ -53,4 +53,15 @@ Developed with Unreal Engine 4
  * C++ Gun --> Fire <work> | Animation <work> | Sound on Fire <work> hides class member declaration> -- Error - FIXED!!
  * Weapon_Bundle, SKINS, Ammo || Mesh Change
  * Two Bone 1K
-  
+ * Error Fix #include
+ * *.uasset Search LFS
+ * LFS - GIT
+ * Patrolling Guard | BP --> Run Patrol ( No Aim) -> Walk with aim <sok javitas>
+ * NPC -> Fire Animation
+ * NPC -> Fire + Shooting <sound, ammo>
+ * Taking Damage < bugg >
+ * Dead Animation < bugg fixed > 
+ * Functions for refactor
+ * Rename | 1st and 3rd Person
+ * Gun Meshes | Aiming Rotation | Aim 1st Person Camera
+ 
