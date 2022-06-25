@@ -64,4 +64,17 @@ Developed with Unreal Engine 4
  * Functions for refactor
  * Rename | 1st and 3rd Person
  * Gun Meshes | Aiming Rotation | Aim 1st Person Camera
+ * Infinite Loop Map Route | Terrain Mode | Health Bar | MedKit Pick up
+ * Content
+ * Content/Trash/...
+ * Content/Dynamic/NPC/Animations uasset's
+ * WeaponBundle
+ * Terrain
+ * TP Merge | Refactoring
+ * Hit Overlap Events
+ * Dynamically Navmesh
+ * Map Change
+ * Navmesh Folder Change
+ * Behavior Tree, BTTask, Range Shooting. HP changes.
+ * AI_NPC | Bugg fix
  
