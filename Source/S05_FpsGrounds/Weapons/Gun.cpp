@@ -4,11 +4,11 @@
 #include "Gun.h"
 #include "BallProjectile.h"
 #include "Animation/AnimInstance.h"
-//#include "Camera/CameraComponent.h"
-//#include "Components/CapsuleComponent.h"
-//#include "Components/InputComponent.h"
-//#include "GameFramework/InputSettings.h"
-//#include "HeadMountedDisplayFunctionLibrary.h"
+#include "Camera/CameraComponent.h"
+#include "Components/CapsuleComponent.h"
+#include "Components/InputComponent.h"
+#include "GameFramework/InputSettings.h"
+#include "HeadMountedDisplayFunctionLibrary.h"
 #include "Kismet/GameplayStatics.h"
 //#include "MotionControllerComponent.h"
 //#include "XRMotionControllerBase.h"
@@ -29,7 +29,7 @@ AGun::AGun()
 
 	FP_MuzzleLocation = CreateDefaultSubobject<USceneComponent>(TEXT("MuzzleLocation"));
 	FP_MuzzleLocation->SetupAttachment(FP_Gun);
-	FP_MuzzleLocation->SetRelativeLocation(FVector(0.2f, 48.4f, -10.6f));
+	FP_MuzzleLocation->SetRelativeLocation(FVector(-39.56f, 1.75f, 64.2f));
 
 }
 
@@ -67,19 +67,19 @@ void AGun::OnFire()
 		}
 
 	// try and play the sound if specified
-	if (FireSound != nullptr)
+	if (FireSound != NULL)
 	{
 		UGameplayStatics::PlaySoundAtLocation(this, FireSound, GetActorLocation());
 	}
 
 	// try and play a firing animation if specified
-	if (FireAnimation != nullptr)
+	if (FireAnimation1P != nullptr && AnimInstance1P != nullptr)
 	{
-		// Get the animation object for the arms mesh
-		if (AnimInstance != nullptr)
-		{
-			AnimInstance->Montage_Play(FireAnimation, 1.f);
-		}
+			AnimInstance1P->Montage_Play(FireAnimation1P, 1.f);
+	}
+	if (FireAnimation3P != nullptr && AnimInstance3P != nullptr)
+	{
+		AnimInstance3P->Montage_Play(FireAnimation3P, 1.f);
 	}
 }
 
