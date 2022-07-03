@@ -77,4 +77,8 @@ Developed with Unreal Engine 4
  * Navmesh Folder Change
  * Behavior Tree, BTTask, Range Shooting. HP changes.
  * AI_NPC | Bugg fix
- 
+ * Map Editing
+ * BlackBoard_BP_AI
+ * Animations_For_C++
+ * Projectile_Settings_Recoil
+ * Hard_C++ <BP_Charactyer> Functions, Gun C++
