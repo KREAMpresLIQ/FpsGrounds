@@ -1,22 +1,11 @@
-//#include "Components/SceneComponent.h"
-//#include "../S05_FpsGrounds.h"
+// Copyright Epic Games, Inc. All Rights Reserved.
+
 #include "Mannequin.h"
-//#include "../Player/FirstPersonCharacter.h"
 #include "../S05_FpsGrounds.h"
 #include "../Weapons/Gun.h"
 #include "Camera/CameraComponent.h"
 #include "Components/CapsuleComponent.h"
-//#include "Components/InputComponent.h"
-//#include "GameFramework/InputSettings.h"
-//#include "HeadMountedDisplayFunctionLibrary.h"
-//#include "Kismet/GameplayStatics.h"
-//#include "MotionControllerComponent.h"
-//#include "XRMotionControllerBase.h" 
 #include "GameFramework/Character.h"
-
-
-
-
 
 // Sets default values
 AMannequin::AMannequin()

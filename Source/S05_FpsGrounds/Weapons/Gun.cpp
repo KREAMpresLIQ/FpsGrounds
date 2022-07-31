@@ -10,8 +10,6 @@
 #include "GameFramework/InputSettings.h"
 #include "HeadMountedDisplayFunctionLibrary.h"
 #include "Kismet/GameplayStatics.h"
-//#include "MotionControllerComponent.h"
-//#include "XRMotionControllerBase.h"
 
 // Sets default values
 AGun::AGun()
