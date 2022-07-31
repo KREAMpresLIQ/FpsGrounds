@@ -83,3 +83,9 @@ Developed with Unreal Engine 4
  * Projectile_Settings_Recoil
  * Hard_C++ <BP_Character> Functions, Gun C++
  * Refactoring 
+ * Content/Dynamic Changes-Refactoring
+ * Weapon Removed
+ * Remove Materials <MS_CrumbledWA>
+ * Content/Static/Geometry - Materials ADD/Refactoring
+ * Weapon Modified
+ * Refactor, BP systematization
